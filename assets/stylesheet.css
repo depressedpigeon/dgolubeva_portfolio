@@ -230,7 +230,7 @@ a.email-a {
   text-align: center;
 }
 
-.contact-a {
+a.contact-a {
   display: block;
   width: fit-content;
   padding: 0.5rem 1rem;
