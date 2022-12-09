@@ -1,0 +1,51 @@
+/* Artist portfolio page */
+
+.proj-name {
+  text-align: center;
+}
+
+.proj-text {
+  padding: 1vw 0 1vw 0;
+}
+
+.role-ul, .proj-text>ul {
+  position: relative;
+  left: 2rem;
+}
+
+.role-ul>li {
+  list-style-type: disc;
+}
+
+.home-img {
+  width: 100%;
+}
+
+.pic2-1>img {
+  width: 49%;
+  display: inline;
+}
+
+.proj-text>ul>li {
+  list-style-type: disc;
+}
+
+.website-link {
+  display: block;
+  width: fit-content;
+  margin: 1vw auto;
+}
+
+a.website-link {
+  text-decoration: underline;
+}
+
+/* IG Captions Generator page */
+
+/* Musly page */
+
+.imagerow-1>img, .imagerow-2>img, 
+.imagerow-3>img {
+  width: 49%;
+}
+

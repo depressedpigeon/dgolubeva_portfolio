@@ -178,19 +178,24 @@ a.email-a {
   grid-template-rows: auto auto;
   column-gap: 2vw;
   grid-template-areas:
-    'h2 h2 h2'
+    'title title title'
     'case1 case2 case3';
 }
 
-.projects-sec>a>h2 {
-  grid-area: h2;
+.projects-title>a>h2 {
   text-align: left;
   text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.7);
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
-.project-div>h3 {
+.projects-title {
+  grid-area: title;
+
+}
+
+.project-div>a>h3 {
   text-align: center;
+  font-size: 1.2vw;
 }
 
 .project-div:hover {
@@ -209,9 +214,9 @@ a.email-a {
   grid-area: case3;
 }
 
-/* case1:hover, case2:hover, case3:hover {
-  box-shadow: 0px 0px 5px white;
-} */
+.project-div>a>p {
+  margin: 1vw 0;
+}
 
 .project-img {
   display: flex;
@@ -221,16 +226,14 @@ a.email-a {
   margin: 0 auto;
 }
 
-/* .project-img:hover {
-  box-shadow: 0px 0px 5px white;
-} */
+
 
 /* contact section */
 .contact-sec>h3 {
   text-align: center;
 }
 
-a.contact-a {
+.contact-a {
   display: block;
   width: fit-content;
   padding: 0.5rem 1rem;
@@ -257,9 +260,6 @@ a.contact-a {
 
 /* ABOUT PAGE */
 /* about section */
-/* .about-sec {
-  
- } */
 
 .about-img {
   width: 55vw;
@@ -270,7 +270,7 @@ a.contact-a {
 /* work experience section */
 .work-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
     'h3-ping p-ping'
@@ -358,12 +358,36 @@ a.contact-a {
   display: none;
 }
 
+.empty-sec {
+  height: 5vh;
+}
+
+
+/* Contact me page */
+.contact-me-sec {
+  text-align: center;
+}
+
+.contact-me-sec>h2 {
+  margin-bottom: 5vw;
+}
+
+.contact-me-sec>a {
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+.contact-me-sec>p {
+  font-size: 0.7rem;
+}
 
 /* FOOTER */
 footer {
-  width: 30vw;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
+  /* position: absolute;
+  bottom: 0; */
 }
 
 .copy {

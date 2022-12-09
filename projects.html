@@ -17,18 +17,18 @@
 
 <body>
   <header>
-    <h1 class="logo"><a href="#">darja golubeva inc</a></h1>
+    <h1 class="logo"><a href="index.html">darja golubeva inc</a></h1>
     <!-- NAVIGATION -->
     <nav>
       <ul class="menu-ul">
         <li><a href="index.html">home</a></li>
         <li><a href="about.html">about</a></li>
         <div class="dropdown">
-          <li><a class="active-nav-a" href="projects.html" class="dropbtn">projects</a></li>
+          <li><a href="projects.html" class="active-nav-a dropbtn">projects</a></li>
           <div class="dropdown-cont">
-            <a href="p-GjolKro.html">Artist Porftfolio</a><br>
+            <a href="p-Artist.html">Artist Porftfolio</a><br>
             <a href="p-IGCaptions.html">IG Caption Generator</a><br>
-            <a href="p-Artist.html">Musly Website Update</a>
+            <a href="p-Musly.html">Musly Website Update</a>
           </div>
         </div>
         <li><a href="contact.html">contact</a></li>
@@ -38,23 +38,40 @@
 
   <!-- MAIN SECTION -->
   <main>
-    <section>
-      <button onclick="showCase1()" class="case1-btn">1111</button>
-      <button onclick="showCase2()" class="case2-btn">2222</button>
-      <button onclick="showCase3()" class="case3-btn">3333</button>
+    <!-- project selection section -->
+    <section class="projects-sec">
+      <div class="projects-title">
+        <a href="projects.html">
+          <h2>Choose a project you want to know more about</h2>
+        </a>
+      </div>
 
-      <section class="case1-sec">
-        1111111
-      </section>
-
-      <section class="case2-sec">
-        222222
-      </section>
-
-      <section class="case3-sec">
-        33333333
-      </section>
+      <div class="project-div case1">
+        <a href="p-Artist.html">
+          <h3>Artist Portfolio</h3>
+          <img class="project-img" src="/dgolubeva_portfolio/assets/images/p-artist/p-Artist-home.png" alt="">
+          <p>This project is a professional portfolio for a Latvia based artist.</p>
+        </a>
+      </div>
+      <div class="project-div case2">
+        <a href="p-IGCaptions.html">
+          <h3>Instagram Caption Generator</h3>
+          <img class="project-img" src="/dgolubeva_portfolio/assets/images/p-captions/p-IGCaptions-home.png" alt="">
+          <p>This project is a Web API Development elective project that focused on the use of databases and endpoint
+            API calls.</p>
+        </a>
+      </div>
+      <div class="project-div case3">
+        <a href="p-Musly.html">
+          <h3>Musly Website Update</h3>
+          <img class="project-img" src="/dgolubeva_portfolio/assets/images/p-musly/p-Musly-1-1.png" alt="">
+          <p>This project is a redesign and updating of Musly - Latvian based Museum audio guide + exhibition
+            interactivity app.</p>
+        </a>
+      </div>
     </section>
+
+    <section class="empty-sec"></section>
 
 
   </main>
